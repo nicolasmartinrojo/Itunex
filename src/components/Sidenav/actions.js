@@ -1,0 +1,8 @@
+const actions = {
+    SIDENAV_OPEN : "SIDENAV_OPEN",
+    SIDENAV_CLOSE : "SIDENAV_CLOSE",
+    SIDENAV_OPEN_INNER:"SIDENAV_OPEN_INNER",
+    SIDENAV_CLOSE_INNER:"SIDENAV_CLOSE_INNER"
+};
+
+export default actions;

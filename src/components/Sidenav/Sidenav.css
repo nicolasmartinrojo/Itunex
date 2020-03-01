@@ -1,0 +1,57 @@
+
+.Sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #facb81;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: #41251b;
+  }
+  
+  .Sidenav span {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #41251b;
+    display: block;
+    transition: 0.3s;
+    text-align: right;
+  }
+  
+  .Sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .Sidenav.Open {
+      width:75%;
+  }
+
+  .Sidenav.Open.Inner {
+    width:45%;
+    background-color: #da9a59;
+}
+  
+  @media screen and (max-height: 450px) {
+    .Sidenav {padding-top: 15px;}
+    .Sidenav span {font-size: 18px;}
+  }
+
+.Hover.Open {
+    position: absolute;
+    width: 100%;
+    background-color: #11111180;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1
+}
